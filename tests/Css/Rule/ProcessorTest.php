@@ -1,9 +1,9 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Tests\Css\Rule;
+namespace MatoMoravcik\CssToInlineStyles\Tests\Css\Rule;
 
 use Symfony\Component\CssSelector\Node\Specificity;
-use TijsVerkoyen\CssToInlineStyles\Css\Rule\Processor;
+use MatoMoravcik\CssToInlineStyles\Css\Rule\Processor;
 
 class ProcessorTest extends \PHPUnit_Framework_TestCase
 {
@@ -34,7 +34,7 @@ EOF;
         $rules = $this->processor->convertToObjects($css, 1);
 
         $this->assertCount(1, $rules);
-        $this->assertInstanceOf('TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
+        $this->assertInstanceOf('MatoMoravcik\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
         $this->assertEquals('a', $rules[0]->getSelector());
         $this->assertCount(2, $rules[0]->getProperties());
         $this->assertEquals('padding', $rules[0]->getProperties()[0]->getName());
@@ -55,7 +55,7 @@ EOF;
         $rules = $this->processor->convertToObjects($css, 1);
 
         $this->assertCount(1, $rules);
-        $this->assertInstanceOf('TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
+        $this->assertInstanceOf('MatoMoravcik\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
         $this->assertEquals('div', $rules[0]->getSelector());
         $this->assertCount(2, $rules[0]->getProperties());
         $this->assertEquals('width', $rules[0]->getProperties()[0]->getName());

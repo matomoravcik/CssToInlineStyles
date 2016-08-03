@@ -1,8 +1,8 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Tests\Css\Property;
+namespace MatoMoravcik\CssToInlineStyles\Tests\Css\Property;
 
-use TijsVerkoyen\CssToInlineStyles\Css\Property\Property;
+use MatoMoravcik\CssToInlineStyles\Css\Property\Property;
 
 class PropertyTest extends \PHPUnit_Framework_TestCase
 {

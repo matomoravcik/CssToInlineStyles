@@ -1,6 +1,6 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Css\Rule;
+namespace MatoMoravcik\CssToInlineStyles\Css\Rule;
 
 use Symfony\Component\CssSelector\Node\Specificity;
 

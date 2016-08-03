@@ -1,9 +1,9 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\tests;
+namespace MatoMoravcik\CssToInlineStyles\tests;
 
-use TijsVerkoyen\CssToInlineStyles\Css\Property\Property;
-use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
+use MatoMoravcik\CssToInlineStyles\Css\Property\Property;
+use MatoMoravcik\CssToInlineStyles\CssToInlineStyles;
 
 class CssToInlineStylesTest extends \PHPUnit_Framework_TestCase
 {

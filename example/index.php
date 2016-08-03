@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use TijsVerkoyen\CssToInlineStyles\CssToInlineStyles;
+use MatoMoravcik\CssToInlineStyles\CssToInlineStyles;
 
 // create instance
 $cssToInlineStyles = new CssToInlineStyles();

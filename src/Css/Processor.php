@@ -1,8 +1,8 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Css;
+namespace MatoMoravcik\CssToInlineStyles\Css;
 
-use TijsVerkoyen\CssToInlineStyles\Css\Rule\Processor as RuleProcessor;
+use MatoMoravcik\CssToInlineStyles\Css\Rule\Processor as RuleProcessor;
 
 class Processor
 {

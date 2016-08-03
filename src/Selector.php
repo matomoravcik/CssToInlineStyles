@@ -1,5 +1,5 @@
 <?php
-namespace TijsVerkoyen\CssToInlineStyles;
+namespace MatoMoravcik\CssToInlineStyles;
 
 use Symfony\Component\CssSelector\CssSelector;
 use Symfony\Component\CssSelector\CssSelectorConverter;

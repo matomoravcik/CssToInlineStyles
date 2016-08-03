@@ -1,9 +1,9 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Tests\Css\Rule;
+namespace MatoMoravcik\CssToInlineStyles\Tests\Css\Rule;
 
-use TijsVerkoyen\CssToInlineStyles\Css\Property\Property;
-use TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule;
+use MatoMoravcik\CssToInlineStyles\Css\Property\Property;
+use MatoMoravcik\CssToInlineStyles\Css\Rule\Rule;
 use Symfony\Component\CssSelector\Node\Specificity;
 
 class PropertyTest extends \PHPUnit_Framework_TestCase

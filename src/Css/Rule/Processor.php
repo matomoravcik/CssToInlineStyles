@@ -1,9 +1,9 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles\Css\Rule;
+namespace MatoMoravcik\CssToInlineStyles\Css\Rule;
 
 use Symfony\Component\CssSelector\Node\Specificity;
-use \TijsVerkoyen\CssToInlineStyles\Css\Property\Processor as PropertyProcessor;
+use \MatoMoravcik\CssToInlineStyles\Css\Property\Processor as PropertyProcessor;
 
 class Processor
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace TijsVerkoyen\CssToInlineStyles;
+namespace MatoMoravcik\CssToInlineStyles;
 
 use Symfony\Component\CssSelector\CssSelector;
 use Symfony\Component\CssSelector\CssSelectorConverter;
 use Symfony\Component\CssSelector\Exception\ExceptionInterface;
-use TijsVerkoyen\CssToInlineStyles\Css\Processor;
-use TijsVerkoyen\CssToInlineStyles\Css\Property\Processor as PropertyProcessor;
-use TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule;
+use MatoMoravcik\CssToInlineStyles\Css\Processor;
+use MatoMoravcik\CssToInlineStyles\Css\Property\Processor as PropertyProcessor;
+use MatoMoravcik\CssToInlineStyles\Css\Rule\Rule;
 
 class CssToInlineStyles
 {

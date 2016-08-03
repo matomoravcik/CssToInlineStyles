@@ -1,9 +1,9 @@
 <?php
 
 
-namespace TijsVerkoyen\CssToInlineStyles\Tests\Css;
+namespace MatoMoravcik\CssToInlineStyles\Tests\Css;
 
-use TijsVerkoyen\CssToInlineStyles\Css\Processor;
+use MatoMoravcik\CssToInlineStyles\Css\Processor;
 
 class ProcessorTest extends \PHPUnit_Framework_TestCase
 {
@@ -34,7 +34,7 @@ EOF;
         $rules = $this->processor->getRules($css);
 
         $this->assertCount(1, $rules);
-        $this->assertInstanceOf('TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
+        $this->assertInstanceOf('MatoMoravcik\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
         $this->assertEquals('a', $rules[0]->getSelector());
         $this->assertCount(2, $rules[0]->getProperties());
         $this->assertEquals('padding', $rules[0]->getProperties()[0]->getName());
@@ -61,7 +61,7 @@ EOF;
         $rules = $this->processor->getRules($css);
 
         $this->assertCount(1, $rules);
-        $this->assertInstanceOf('TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
+        $this->assertInstanceOf('MatoMoravcik\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
         $this->assertEquals('a', $rules[0]->getSelector());
         $this->assertCount(1, $rules[0]->getProperties());
         $this->assertEquals('color', $rules[0]->getProperties()[0]->getName());
@@ -99,7 +99,7 @@ EOF;
         $rules = $this->processor->getRules($css);
 
         $this->assertCount(1, $rules);
-        $this->assertInstanceOf('TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
+        $this->assertInstanceOf('MatoMoravcik\CssToInlineStyles\Css\Rule\Rule', $rules[0]);
         $this->assertEquals('a', $rules[0]->getSelector());
         $this->assertCount(1, $rules[0]->getProperties());
         $this->assertEquals('color', $rules[0]->getProperties()[0]->getName());
